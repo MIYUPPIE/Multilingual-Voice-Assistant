@@ -1,0 +1,20 @@
+# Ultra-Minimal Core Requirements
+# These are ESSENTIAL packages only - installable without large downloads
+
+# Language Models - OpenAI GPT
+openai>=1.3.0
+
+# Text-to-Speech
+pyttsx3>=2.90
+
+# Audio Input/Output
+sounddevice>=0.4.6
+soundfile>=0.12.1
+
+# Utilities
+python-dotenv>=1.0.0
+pydantic>=2.0.0  
+requests>=2.31.0
+
+# Note: Whisper will be installed separately due to network issues
+# Run: pip install openai-whisper>=20240314
